@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "concurrently -n FRONTEND,BFF -c \"blue,green\" \"npm start\" \"cd ../bff && npm start\""
+    "dev": "npx concurrently -n FRONTEND,BFF -c \"blue,green\" \"npm start\" \"cd ../bff && npm start\""
   },
   "eslintConfig": {
     "extends": [
